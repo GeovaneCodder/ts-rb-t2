@@ -10,3 +10,5 @@ clean:
 validate:
 	npm --version
 	node --version
+sh:
+	docker exec -it ts-rb-t2_typescript-express-app_1 /bin/sh

@@ -3,7 +3,7 @@ services:
   typescript-express-app:
     build: .
     ports: 
-      - 5000:5000
+      - "5000:5000"
     volumes:
       - .:/usr/app
     tty: true
